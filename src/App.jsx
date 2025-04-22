@@ -21,7 +21,6 @@ export default function App() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
     autoplaySpeed: 2000
   };
 
