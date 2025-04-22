@@ -4,14 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  '/pic1.jpg',
-  '/pic2.jpg',
-  '/pic3.jpg',
-  '/pic4.jpg',
-  '/pic5.jpg',
-  '/pic6.jpg',
-  '/pic7.jpeg',
-  '/pic8.jpeg'
+  `${process.env.PUBLIC_URL}/pic1.jpg`,
+  `${process.env.PUBLIC_URL}/pic2.jpg`,
+  `${process.env.PUBLIC_URL}/pic3.jpg`,
+  `${process.env.PUBLIC_URL}/pic4.jpg`,
+  `${process.env.PUBLIC_URL}/pic5.jpg`,
+  `${process.env.PUBLIC_URL}/pic6.jpg`,
+  `${process.env.PUBLIC_URL}/pic7.jpeg`,
+  `${process.env.PUBLIC_URL}/pic8.jpeg`
 ];
 
 export default function App() {
