@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  `${process.env.PUBLIC_URL}/pic1.jpg`,
+ https://thekarancode0.github.io/react-slider/,
   `${process.env.PUBLIC_URL}/pic2.jpg`,
   `${process.env.PUBLIC_URL}/pic3.jpg`,
   `${process.env.PUBLIC_URL}/pic4.jpg`,
