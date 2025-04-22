@@ -4,14 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
- https://thekarancode0.github.io/react-slider/,
-  `${process.env.PUBLIC_URL}/pic2.jpg`,
-  `${process.env.PUBLIC_URL}/pic3.jpg`,
-  `${process.env.PUBLIC_URL}/pic4.jpg`,
-  `${process.env.PUBLIC_URL}/pic5.jpg`,
-  `${process.env.PUBLIC_URL}/pic6.jpg`,
-  `${process.env.PUBLIC_URL}/pic7.jpeg`,
-  `${process.env.PUBLIC_URL}/pic8.jpeg`
+ pic1.jpg,
+ pic2.jpg,
+ pic3.jpg,
+ pic4.jpg,
+ pic5.jpg,
+ pic6.jpg,
+ pic7.jeg,
+ pic8.jpeg,
 ];
 
 export default function App() {
@@ -21,7 +21,7 @@ export default function App() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000
   };
 
