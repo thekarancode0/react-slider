@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
- '../public/pic1.jpg',
+ '/public/pic1.jpg',
  pic2.jpg,
  pic3.jpg,
  pic4.jpg,
