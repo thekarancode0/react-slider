@@ -4,14 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const images = [
-  './src/assets/pic1.jpg',
-  './src/assets/pic2.jpg',
-  './src/assets/pic3.jpg',
-  './src/assets/pic4.jpg',
-  './src/assets/pic5.jpg',
-  './src/assets/pic6.jpg',
-  './src/assets/pic7.jpeg',
-  './src/assets/pic8.jpeg',
+  'images/pic1.jpg',
+  'images/pic2.jpg',
+  'images/pic3.jpg',
+  'images/pic4.jpg',
+  'images/pic5.jpg',
+  'images/pic6.jpg',
+  'images/pic7.jpeg',
+  'images/pic8.jpeg',
 ];
 
 export default function App() {
@@ -21,6 +21,7 @@ export default function App() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    autoplay: false,
     autoplaySpeed: 2000
   };
 
